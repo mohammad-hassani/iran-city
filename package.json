@@ -1,0 +1,23 @@
+{
+  "name": "iran-city",
+  "version": "1.0.0",
+  "description": "list of cities in iran",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammad-hassani/iran-city.git"
+  },
+  "keywords": [
+    "iran",
+    "city"
+  ],
+  "author": "mohammad-hassani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammad-hassani/iran-city/issues"
+  },
+  "homepage": "https://github.com/mohammad-hassani/iran-city#readme"
+}
