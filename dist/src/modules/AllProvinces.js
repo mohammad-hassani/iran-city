@@ -28,7 +28,7 @@ const provinces = __importStar(require("../../json/provinces.json"));
 function AllProvinces() {
     let provincesArray = [];
     for (let i = 0; i < Object.keys(provinces).length - 1; i++) {
-        provincesArray.push(provinces[i].name);
+        provincesArray.push(provinces[i]);
     }
     return provincesArray;
 }

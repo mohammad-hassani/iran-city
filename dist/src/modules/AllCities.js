@@ -28,7 +28,7 @@ const cities = __importStar(require("../../json/cities.json"));
 function AllCities() {
     let citiesArray = [];
     for (let i = 0; i < Object.keys(cities).length - 1; i++) {
-        citiesArray.push(cities[i].name);
+        citiesArray.push(cities[i]);
     }
     return citiesArray;
 }
