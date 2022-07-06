@@ -1,6 +1,6 @@
 {
   "name": "iran-city",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "list of cities in iran",
   "main": "dist/src/index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "iran",
-    "city"
+    "city",
+    "iran-city"
   ],
   "author": "mohammad-hassani",
   "license": "ISC",
