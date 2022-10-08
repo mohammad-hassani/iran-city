@@ -34,7 +34,7 @@ npm install iran-city
     cityById(cityID) // will return all city data by searching id of city
 ```
 
-#### You can find examples in src/index.js
+#### You can find examples in `src/index.js`
 
 ### For make dist folder:
 
@@ -42,7 +42,7 @@ npm install iran-city
 npx tsc --resolveJsonModule
 ```
 
-### for run index file
+### For run index file
 
 ```shell
 node dist/src/index.js
