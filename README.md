@@ -8,38 +8,44 @@ npm install iran-city
 
 ## Usage example
 
-    var iranCity = require('iran-city');
-    var AllCities = iranCity.allCities();
-    var AllProvinces = iranCity.allProvinces();
-    var CitiesOfProvince = iranCity.citiesOfProvince(20);
-    var SearchByName = iranCity.searchByName('کرمان');
-    var CityByName = iranCity.cityByName('رفسنجان');
-    var CityById = iranCity.cityById(766);
-
+```js
+    let iranCity = require('iran-city');
+    let AllCities = iranCity.allCities();
+    let AllProvinces = iranCity.allProvinces();
+    let CitiesOfProvince = iranCity.citiesOfProvince(20);
+    let SearchByName = iranCity.searchByName('کرمان');
+    let CityByName = iranCity.cityByName('رفسنجان');
+    let CityById = iranCity.cityById(766);
+```
 
 ## Modules
 
-    allCities() : will return an array of all cities
+```js
+    allCities() // will return an array of all cities
 
-    allProvinces() : will return an array of all provinces
+    allProvinces() // will return an array of all provinces
 
-    citiesOfProvince(provinceID) : will return an array of all cities of a specific province by province id
+    citiesOfProvince(provinceID) // will return an array of all cities of a specific province by province id
 
-    searchByName('province name') : will return an array of all cities of a specific province by province name
+    searchByName('province name') // will return an array of all cities of a specific province by province name
 
-    cityByName('city name') : will return all city data by searching name of city
+    cityByName('city name') // will return all city data by searching name of city
 
-    cityById(cityID) : will return all city data by searching id of city
+    cityById(cityID) // will return all city data by searching id of city
+```
 
-#### you can find examples in src/index.js
+#### You can find examples in src/index.js
 
-### for make dist folder:
+### For make dist folder:
 
-```npx tsc --resolveJsonModule```
+```shell
+npx tsc --resolveJsonModule
+```
 
 ### for run index file
 
-```node dist/src/index.js```
+```shell
+node dist/src/index.js
+```
 
-
-### Thanks to @sajaddp for the help
+### Thanks to [@sajaddp](https://github.com/sajaddp) for the help
