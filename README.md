@@ -48,4 +48,4 @@ npx tsc --resolveJsonModule
 node dist/src/index.js
 ```
 
-### Thanks to [@sajaddp](https://github.com/sajaddp) for the help
+Thanks to [@sajaddp](https://github.com/sajaddp) for the help
