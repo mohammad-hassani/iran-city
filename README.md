@@ -34,18 +34,18 @@ npm install iran-city
     cityById(cityID) // will return all city data by searching id of city
 ```
 
-#### You can find examples in `src/index.js`
+* You can find examples in `src/index.js`
 
-### For make dist folder:
+* For make dist folder
 
 ```shell
 npx tsc --resolveJsonModule
 ```
 
-### For run index file
+* For run index file
 
 ```shell
 node dist/src/index.js
 ```
 
-Thanks to [@sajaddp](https://github.com/sajaddp) for the help
+* Thanks to [@sajaddp](https://github.com/sajaddp) for the help
