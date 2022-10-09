@@ -1,0 +1,3 @@
+[submodule "list-of-cities-in-Iran"]
+	path = list-of-cities-in-Iran
+	url = git@github.com:sajaddp/list-of-cities-in-Iran.git
