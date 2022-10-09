@@ -6,7 +6,9 @@ export default function citiesOfProvince(nameOfCity: string): string[] {
   let PID;
   let cityData: any = [];
   let cityNotFund: boolean = true;
-  for (let i = 0; i < Object.keys(cities).length - 1; i++) {
+  let citiesLen = Object.keys(cities).length - 1;
+  let provincesLen = Object.keys(provinces).length - 1;
+  for (let i = 0; i < citiesLen; i++) {
     if (cities[i].name == nameOfCity) {
       cityData = cities[i];
       PID = cityData.province_id;
@@ -16,7 +18,7 @@ export default function citiesOfProvince(nameOfCity: string): string[] {
   if (cityNotFund) {
     return ["شهر یافت نشد"];
   }
-  for (let i = 0; i < Object.keys(provinces).length - 1; i++) {
+  for (let i = 0; i < provincesLen; i++) {
     if (provinces[i].id == PID) {
       cityData.province_name = provinces[i].name;
     }

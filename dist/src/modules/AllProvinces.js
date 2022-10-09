@@ -24,10 +24,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 // will return a list of all provinces
-const provinces = __importStar(require("../../json/provinces.json"));
+const provinces = __importStar(require("../../list-of-cities-in-Iran/json/provinces.json"));
 function AllProvinces() {
     let provincesArray = [];
-    for (let i = 0; i < Object.keys(provinces).length - 1; i++) {
+    let provincesLen = Object.keys(provinces).length - 1;
+    for (let i = 0; i < provincesLen; i++) {
         provincesArray.push(provinces[i]);
     }
     return provincesArray;

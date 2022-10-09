@@ -1,6 +1,6 @@
 {
   "name": "iran-city",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "list of cities in iran",
   "main": "dist/src/index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/mohammad-hassani/iran-city/issues"
   },
-  "homepage": "https://github.com/mohammad-hassani/iran-city#readme"
+  "homepage": "https://github.com/mohammad-hassani/iran-city#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2"
+  }
 }
