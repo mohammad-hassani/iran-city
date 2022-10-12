@@ -4,6 +4,8 @@
 name: Node.js Package
 
 on:
+  branches:
+    - master
   release:
     types: [created]
 
