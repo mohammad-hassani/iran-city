@@ -6,7 +6,9 @@ export default function citiesOfProvince(nameOfProvince: string): string[] {
   let PID;
   let Pcities: any = [];
   let provinceNotFund: boolean = true;
-  for (let i = 0; i < Object.keys(provinces).length - 1; i++) {
+  let citiesLen = Object.keys(cities).length - 1;
+  let provincesLen = Object.keys(provinces).length - 1;
+  for (let i = 0; i < provincesLen; i++) {
     if (provinces[i].name == nameOfProvince) {
       PID = provinces[i].id;
       provinceNotFund = false;
@@ -15,7 +17,7 @@ export default function citiesOfProvince(nameOfProvince: string): string[] {
   if (provinceNotFund) {
     return ["استان یافت نشد"];
   }
-  for (let i = 0; i < Object.keys(cities).length - 1; i++) {
+  for (let i = 0; i < citiesLen; i++) {
     if (cities[i].province_id == PID) {
       Pcities.push(cities[i]);
     }
