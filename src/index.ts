@@ -5,8 +5,7 @@ import searchByName from './modules/SearchByName';
 import cityByName from './modules/CityByName';
 import cityById from './modules/CityById';
 
-
-export {allCities, allProvinces, citiesOfProvince, searchByName, cityByName, cityById};
+export { allCities, allProvinces, citiesOfProvince, searchByName, cityByName, cityById };
 // will return an array of all cities
 // const AllCities = allCities();
 // for (let i = 0; i < AllCities.length; i++) {

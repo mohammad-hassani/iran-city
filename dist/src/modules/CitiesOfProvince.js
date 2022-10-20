@@ -26,10 +26,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // will return the list of data of cities of a province
 const cities = __importStar(require("../../list-of-cities-in-Iran/json/cities.json"));
 function citiesOfProvince(PID) {
-    let Pcities = [];
-    let citiesLen = Object.keys(cities).length - 1;
+    const Pcities = [];
+    const citiesLen = Object.keys(cities).length - 1;
     for (let i = 0; i < citiesLen; i++) {
-        if (cities[i].province_id == PID) {
+        if (cities[i].province_id === PID) {
             Pcities.push(cities[i]);
         }
     }

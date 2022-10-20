@@ -26,8 +26,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // will return a list of all provinces
 const provinces = __importStar(require("../../list-of-cities-in-Iran/json/provinces.json"));
 function AllProvinces() {
-    let provincesArray = [];
-    let provincesLen = Object.keys(provinces).length - 1;
+    const provincesArray = [];
+    const provincesLen = Object.keys(provinces).length - 1;
     for (let i = 0; i < provincesLen; i++) {
         provincesArray.push(provinces[i]);
     }

@@ -28,21 +28,21 @@ const cities = __importStar(require("../../list-of-cities-in-Iran/json/cities.js
 const provinces = __importStar(require("../../list-of-cities-in-Iran/json/provinces.json"));
 function citiesOfProvince(nameOfProvince) {
     let PID;
-    let Pcities = [];
     let provinceNotFund = true;
-    let citiesLen = Object.keys(cities).length - 1;
-    let provincesLen = Object.keys(provinces).length - 1;
+    const Pcities = [];
+    const citiesLen = Object.keys(cities).length - 1;
+    const provincesLen = Object.keys(provinces).length - 1;
     for (let i = 0; i < provincesLen; i++) {
-        if (provinces[i].name == nameOfProvince) {
+        if (provinces[i].name === nameOfProvince) {
             PID = provinces[i].id;
             provinceNotFund = false;
         }
     }
     if (provinceNotFund) {
-        return ["استان یافت نشد"];
+        return ['استان یافت نشد'];
     }
     for (let i = 0; i < citiesLen; i++) {
-        if (cities[i].province_id == PID) {
+        if (cities[i].province_id === PID) {
             Pcities.push(cities[i]);
         }
     }

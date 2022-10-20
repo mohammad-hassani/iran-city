@@ -26,8 +26,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // will return a list of all cities
 const cities = __importStar(require("../../list-of-cities-in-Iran/json/cities.json"));
 function AllCities() {
-    let citiesArray = [];
-    let citiesLen = Object.keys(cities).length - 1;
+    const citiesArray = [];
+    const citiesLen = Object.keys(cities).length - 1;
     for (let i = 0; i < citiesLen; i++) {
         citiesArray.push(cities[i]);
     }
