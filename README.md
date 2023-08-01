@@ -49,3 +49,5 @@ node dist/src/index.js
 ```
 
 * Thanks to [@sajaddp](https://github.com/sajaddp) for the help
+
+* made with ❤ by [Mohammad Hassani](https://hasani.id.ir)
