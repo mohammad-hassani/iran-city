@@ -48,6 +48,8 @@ npx tsc --resolveJsonModule
 node dist/src/index.js
 ```
 
+# npmjs link: [iran-city - npm](https://www.npmjs.com/package/iran-city)
+
 * Thanks to [@sajaddp](https://github.com/sajaddp) for the help
 
 * made with ❤ by [Mohammad Hassani](https://hasani.id.ir)
