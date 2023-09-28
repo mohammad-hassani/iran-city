@@ -4,8 +4,10 @@ import citiesOfProvince from './modules/CitiesOfProvince';
 import searchByName from './modules/SearchByName';
 import cityByName from './modules/CityByName';
 import cityById from './modules/CityById';
+import CityBySlug from './modules/CityBySlug';
+import PCitiesBySlug from './modules/PCitiesBySlug';
 
-export { allCities, allProvinces, citiesOfProvince, searchByName, cityByName, cityById };
+export { allCities, allProvinces, citiesOfProvince, searchByName, cityByName, cityById, PCitiesBySlug, CityBySlug };
 // will return an array of all cities
 // const AllCities = allCities();
 // for (let i = 0; i < AllCities.length; i++) {
@@ -25,7 +27,7 @@ export { allCities, allProvinces, citiesOfProvince, searchByName, cityByName, ci
 // }
 
 // will return an array of all cities of a specific province by province name
-// const SearchByName = searchByName('کرمان'); // you can even use wrong name
+// const SearchByName = PCitiesBySlug('کرمان'); // you can even use wrong name
 // for (let i = 0; i < SearchByName.length; i++) {
 //   console.log(SearchByName[i]);
 // }

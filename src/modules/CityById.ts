@@ -9,7 +9,7 @@ interface StringArray {
   province_name: string;
 }
 
-export default function citiesOfProvince(idOfCity: number): StringArray[] | ['شهر یافت نشد'] {
+export default function cityById(idOfCity: number): StringArray[] | ['شهر یافت نشد'] {
   let PID;
   let cityData: any = [];
   let cityNotFund: boolean = true;

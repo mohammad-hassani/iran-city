@@ -1,15 +1,15 @@
-// will return all city data by searching name of city
+// will return all city data by searching slug of city
 import * as cities from '../../list-of-cities-in-Iran/json/cities.json';
 import * as provinces from '../../list-of-cities-in-Iran/json/provinces.json';
 
-export default function cityByName(nameOfCity: string): string[] {
+export default function CityBySlug(nameOfCity: string): string[] {
   let PID;
   let cityData: any = [];
   let cityNotFund: boolean = true;
   const citiesLen = Object.keys(cities).length - 1;
   const provincesLen = Object.keys(provinces).length - 1;
   for (let i = 0; i < citiesLen; i++) {
-    if (cities[i].name === nameOfCity) {
+    if (cities[i].slug === nameOfCity) {
       cityData = cities[i];
       PID = cityData.province_id;
       cityNotFund = false;
