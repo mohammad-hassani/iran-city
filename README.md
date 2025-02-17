@@ -76,7 +76,7 @@ Here are some examples of how to use the package:
 
 **Sources:**
 
-* [iran-city package on npm](https://hasani.id.ir/iran-city)
+* [iran-city package on github](https://github.com/mohammad-hassani/iran-city)
 
 ## npmjs link: [iran-city - npm](https://www.npmjs.com/package/iran-city)
 
